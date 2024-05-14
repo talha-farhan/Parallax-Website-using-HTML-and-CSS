@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.image1 {
+  background-image: url(images/image1.jpg);
+  min-height: 100vh;
+}
+
+.image2 {
+  background-image: url(images/image2.jpg);
+  min-height: 800px;
+}
+
+.image3 {
+  background-image: url(images/image3.jpg);
+  min-height: 800px;
+}
+
+.image {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.h-text p {
+  min-width: 500px;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #f7ece5;
+  background-color: #313534;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.p-text {
+  padding: 10px 40px 60px 40px;
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.p-text h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.p-text p {
+  font-size: 25px;
+  text-align: center;
+  padding: 0 120px;
+}
+
+.section-two .h-text p {
+  background-color: rgba(49, 53, 52, 0.2);
+  color: #fff;
+}
+
+.section-two .p-text {
+  color: #f7ece5;
+  background-color: #313534;
+}
+
+.section-three .h-text p {
+  background-color: rgba(49, 53, 52, 0.2);
+  color: #fff;
+}
+
+.section-three .p-text {
+  color: #f7ece5;
+  background-color: #313534;
+}
